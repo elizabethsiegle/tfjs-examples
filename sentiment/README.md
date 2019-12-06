@@ -43,7 +43,7 @@ trained. The available options are:
 - `flatten`: A model that flattens the embedding vectors of all words in the sequence.
 - `cnn`: A 1D convolutional model, with a dropout layer included.
 - `simpleRNN`: A model that uses a SimpleRNN layer (`tf.layers.simpleRNN`)
-- `lstm`: A model that uses a LSTM laayer (`tf.layers.lstm`)
+- `lstm`: A model that uses a LSTM layer (`tf.layers.lstm`)
 - `bidirectionalLSTM`: A model that uses a bidirectional LSTM layer
   (`tf.layers.bidirectional` and `tf.layers.lstm`)
 
